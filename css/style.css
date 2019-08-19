@@ -1,0 +1,85 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    /*background: #fafafa;*/
+    overflow-x: hidden;
+    font-size: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    /*align-items: stretch;*/
+}
+
+.top {
+    margin-top: 100px;
+}
+
+img{
+    display: flex;
+    margin: 0 auto;
+}
+
+.textito{
+    font-size: 12px;
+}
+
+.allvh{
+	min-height: 80vh;
+}
+
+.navbar{
+    background: rgb(36, 95, 255);
+    box-shadow: 2px 2px 5px rgb(33, 211, 255);
+    box-shadow: .125rem .125rem .3125rem rgb(33, 211, 255);
+    color: #fff;
+    opacity: .9;
+    padding: 40px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  }
+
+
+  .imageh{
+      max-width: 150px;
+  }
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (min-width: 991px) {
+
+    body{
+        overflow: auto
+    }
+
+    .navbar {
+        width: 250px;
+
+        padding: 15px 15px 15px 15px;
+        background: #000;
+        border: none;
+        border-radius: 0;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        background: rgb(36, 95, 255);
+        color: #fff;
+        transition: all 0.3s;
+        position:sticky;
+
+    }
+    .navbar-header{
+        background: rgba(5, 10, 255, 0.877);
+    }
+
+    
+  .imageh{
+    max-width: 150px;
+  } 
+
+      
+}

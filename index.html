@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+    <!-- Font Awesome JS -->
+    <script defer src="js/solid.js" ></script>
+    <!--<script defer src="js/fontawesome.js" ></script>-->
+
+</head>
+
+<body>
+  <div class="wrapper">
+      <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid ">
+            
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <p class="text-center d-lg-none"> Blog de Miwel </p>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container-fluid">
+              <h5 class="text-center mb-5 d-none d-lg-block"> Blog de Miwel </h5>
+              <img src="img/miwel1.jpg" class="mt-3 mx-auto rounded-circle img-fluid imageh">
+              <div class="text-center mt-3">
+                <p class="textito">
+                    Me llamo miwel y este es mi blog de tecnología, es muy genial poder tener mi propio blog
+                </p>
+              </div>
+              <hr>
+              <ul class="navbar-nav flex-column text-left  mb-5">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"><svg class="svg-inline--fa fa-home fa-w-18 fa-fw mr-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg><!-- <i class="fas fa-home fa-fw mr-2"></i> -->Blog Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog-post.html"><svg class="svg-inline--fa fa-bookmark fa-w-12 fa-fw mr-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bookmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path></svg><!-- <i class="fas fa-bookmark fa-fw mr-2"></i> -->Blog Post</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"><svg class="svg-inline--fa fa-user fa-w-14 fa-fw mr-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg><!-- <i class="fas fa-user fa-fw mr-2"></i> -->About Me</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+          </div>
+        </nav>
+
+        <div class="container allvh top">
+          <div id="About" class="line  mb-5"></div>
+        <section class="container  mt-5 contenidoh mb-5">
+            <div class="container">
+            <h3 class="text-center mb-5">Suscribete para mas contenido</h3>
+            <p>Constantemente se sube nuevo contenido a este sitio, si deseas mantenerte al tanto solo necesitas suscribirte en las cajas de abajo</p>
+            <div class="row">
+              <div class="col-md-4">
+                <input type="text" class="form-control  form-control-lg" placeholder="Tu nombre" required>
+              </div>
+              <div class="col-md-4">
+                <input type="email" class="form-control  form-control-lg" placeholder="Email" required>
+              </div>
+              <div class="col-md-4">
+                <button type="submit" class="btn  btn-primary  btn-lg  btn-block">Suscribe</button>
+              </div>
+            </div>
+            </div>
+          </section>
+
+
+          <section class="blog-list px-3 py-5 p-md-5">
+              <div class="container">
+                <div class="item mb-5">
+                  <div class="media">
+                    <img class="mr-3 img-fluid post-thumb d-none d-md-flex imageh" src="img/person.png" alt="image">
+                    <div class="media-body">
+                      <h3 class="title mb-1"><a href="blog-post.html">Why Every Developer Should Have A Blog</a></h3>
+                      <div class="meta mb-1"><span class="date">Published 2 days ago</span><span class="time">5 min read</span><span class="comment"><a href="#">8 comments</a></span></div>
+                      <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+                      <a class="more-link" href="blog-post.html">Read more →</a>
+                    </div><!--//media-body-->
+                  </div><!--//media-->
+                </div><!--//item-->
+                <div class="item mb-5">
+                  <div class="media">
+                    <img class="mr-3 img-fluid post-thumb d-none d-md-flex imageh" src="img/person.png" alt="image">
+                    <div class="media-body">
+                      <h3 class="title mb-1"><a href="blog-post.html">A Guide to Becoming a Full-Stack Developer</a></h3>
+                      <div class="meta mb-1"><span class="date">Published 3 months ago</span><span class="time">3 min read</span><span class="comment"><a href="#">26 comments</a></span></div>
+                      <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+                      <a class="more-link" href="blog-post.html">Read more →</a>
+                    </div><!--//media-body-->
+                  </div><!--//media-->
+                </div><!--//item-->
+                
+                <div class="item mb-5">
+                  <div class="media">
+                    <img class="mr-3 img-fluid post-thumb d-none d-md-flex imageh" src="img/person.png" alt="image">
+                    <div class="media-body">
+                      <h3 class="title mb-1"><a href="blog-post.html">High Performance JavaScript</a></h3>
+                      <div class="meta mb-1"><span class="date">Published 1 month ago</span><span class="time">8 min read</span><span class="comment"><a href="#">12 comments</a></span></div>
+                      <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+                      <a class="more-link" href="blog-post.html">Read more →</a>
+                    </div><!--//media-body-->
+                  </div><!--//media-->
+                </div><!--//item-->
+                <div class="item mb-5">
+                  <div class="media">
+                    <img class="mr-3 img-fluid post-thumb d-none d-md-flex imageh" src="img/person.png" alt="image">
+                    <div class="media-body">
+                      <h3 class="title mb-1"><a href="blog-post.html">Top 5 JavaScript Frameworks</a></h3>
+                      <div class="meta mb-1"><span class="date">Published 2 months ago </span><span class="italic">15 min read </span><span class="comment"><a href="#">3 comments</a></span></div>
+                      <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+                      <a class="more-link" href="blog-post.html">Read more →</a>
+                    </div><!--//media-body-->
+                  </div><!--//media-->
+                </div><!--//item-->
+                
+                <div class="item mb-5">
+                  <div class="media">
+                    <img class="mr-3 img-fluid post-thumb d-none d-md-flex imageh" src="img/person.png" alt="image">
+                    <div class="media-body">
+                      <h3 class="title mb-1"><a href="blog-post.html">Learn React in 24 Hours</a></h3>
+                      <div class="meta mb-1"><span class="date">Published 2 months ago</span><span class="time">10 min read</span><span class="comment"><a href="#">23 comments</a></span></div>
+                      <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+                      <a class="more-link" href="blog-post.html">Read more →</a>
+                    </div><!--//media-body-->
+                  </div><!--//media-->
+                </div><!--//item-->
+                
+                <div class="item">
+                  <div class="media">
+                    <img class="mr-3 img-fluid post-thumb d-none d-md-flex imageh" src="img/person.png" alt="image">
+                    <div class="media-body">
+                      <h3 class="title mb-1"><a href="blog-post.html">About Remote Working</a></h3>
+                      <div class="meta mb-1"><span class="date">Published 3 months ago</span><span class="time">2 min read</span><span class="comment"><a href="#">1 comment</a></span></div>
+                      <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+                      <a class="more-link" href="blog-post.html">Read more →</a>
+                    </div><!--//media-body-->
+                  </div><!--//media-->
+                </div><!--//item-->
+              
+              </div>
+            </section>
+        </div>
+  </div>
+</div>
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="js/jquery-3.3.1.slim.min.js" ></script>
+    <!-- Popper.JS -->
+    <script src="js/popper.min.js" ></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap1.min.js" ></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
